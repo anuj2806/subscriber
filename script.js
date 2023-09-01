@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 messageDiv.style.color='red';
             } 
         })
-        .catch(error => {
-            console.error("Error:", error);
-        });
+        // .catch(error => {
+        //     console.error("Error:", error);
+        // });
     });
 });
