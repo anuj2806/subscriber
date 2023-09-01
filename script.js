@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const formData = new FormData();
         formData.append("email", email);
 
-        fetch("subscribe.php", {
+        fetch("https://anuj2806.github.io/subscriber/subscribe.php", {
             method: "POST",
             body: formData,
         })
